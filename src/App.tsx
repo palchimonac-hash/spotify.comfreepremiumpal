@@ -9,14 +9,14 @@ function App() {
   const buttonTexts = [
     "no",
     "ayaw ko",
-    "nagseselos ako",
-    "ay kanino ka nagseselos?",
-    "joke lang xD",
+    "ayaw mo talaga???",
+    "suree :( ",
+    "MAG YES KA NA",
     "bakit ayaw mong pumayag",
     "ang laki na masyado ng yes",
     "PUMAYAG KA NA",
     "alam kong kinikilig ka rin naman",
-    "babe pls... 🥺",
+    "REINZ pls... 🥺",
     "pag-usapan natin 'to 💔",
     "bakit ayaw mo",
     "sapilitan na lang",
@@ -28,7 +28,7 @@ function App() {
         {!isYesPressed && (
           <div className="flex flex-col gap-4">
             <h1 className="font-bold">
-              azriel gonzales will u be my valentine!!!
+              azul alto reinz will u be my valentine!!! 😒
             </h1>
             <h3>pls 🥺</h3>
           </div>
@@ -70,7 +70,7 @@ function App() {
       {isYesPressed && !isOkPressed && (
         <div className="flex flex-col items-center justify-center gap-4">
           <div className="flex flex-col gap-4 text-xs">
-            ops nakangiti ka na oh balik ka na sa chat natin dali
+            JOKE xd magkahiwalay muna tayo sa 14 😵‍💫
           </div>
           <button
             onClick={() => setIsOkPressed(true)}
@@ -83,11 +83,13 @@ function App() {
       {isOkPressed && (
         <div className="flex flex-col items-center justify-center gap-16">
           <h1 className="flex flex-col gap-4 text-xs">
-            happy valentines, babe! you make me ready to dive.
+            happy valentines, EBUUU valentines proposal ko na 'to kasi wala ako sa 14
+            SERIOUS legit totoo :( play this song nalang kasi it reminds me of u 😵‍💫 i miss
+            you alwaaays babeeeuu
           </h1>
           <div className="flex flex-col gap-4 text-xs">
-            always urs, <br />
-            lucas ♥️
+            bebot bebot, <br />
+            pal 😼
           </div>
         </div>
       )}
